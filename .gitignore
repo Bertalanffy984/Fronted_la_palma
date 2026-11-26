@@ -1,0 +1,30 @@
+# Dependencias y cachés de herramientas
+node_modules/
+.vite/
+.oxlintcache
+
+# Compilaciones y cobertura local
+dist/
+dist-ssr/
+coverage/
+
+# Configuración local por entorno y plantilla versionable
+.env
+.env.*
+!.env.example
+*.local
+
+# Registros y diagnósticos
+logs/
+*.log
+
+# Configuración del editor y archivos del sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
